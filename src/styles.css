@@ -1,0 +1,302 @@
+/*body*/
+
+body {
+    font-family: "Nunito Sans", sans-serif; 
+    font-optical-sizing: auto;
+    font-style: normal; 
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*navbar*/
+
+.navbar::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; 
+    height: .5px; 
+    background-color: white;
+  }
+
+.navbar-nav {
+    font-size: 12px !important;
+}
+
+.btn {
+    font-size: 12px;
+}
+
+.bi-box2 {
+    padding-right: 7px;
+
+}
+
+.nav-link {
+    margin: 16px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*sections 1*/
+
+
+/*===Left===*/
+
+.odoo {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+}
+
+.Head1 {
+    padding-left: 120px;
+    padding-right: 140px !important;
+  }
+
+.Build {
+    padding-left: 120px;
+    padding-right: 140px !important;
+  }
+
+.btnget {
+    margin-left: 120px;
+  }
+
+
+.bi {
+    transform: translateY(-1px);
+}
+
+.trusted {
+    margin-left: 120px;
+    font-size: 10px;
+    height: 100px;
+  }
+
+.trustimg {
+    width: 12%;
+}
+
+  /*===Right===*/
+
+
+.SectionCard {
+    width: 200px;
+    height: 320px;
+}
+.CardSect {
+    width: 290px;
+    height: 380px;
+    background-color: white;
+    margin: 0 auto;
+    border-bottom-right-radius: 20% !important;
+    font-size: 12px !important;
+  }
+
+
+.bi-plus-circle-dotted {
+    padding-right: 6px;
+    transform: translateY(-1px);
+}
+
+   /*===Dark Blue Card===*/
+
+.container {
+    position: absolute;
+    z-index: 2;
+}
+
+.bActive {
+    font-size: 9px;
+}
+
+.line1 {
+    margin-top: 1rem;
+}
+
+.line2 {
+    font-size: 8px;
+    margin-top: 3.2rem;
+}
+.line3 {
+    margin-top: 4.2rem;
+    font-size: 18px;
+}
+
+.date {
+    margin-top: 6.5rem;
+}
+
+.title {
+    font-size: 9px !important;
+}
+
+.dots {
+    position: relative;
+    opacity: 30%;
+    transform: translateY(-3px);
+    z-index: 1;
+}
+
+
+
+
+
+
+/*sections 2*/
+
+
+
+.img01 {
+    position: absolute;
+    width: 215px;
+    z-index: 2;
+    translate: 290px;
+    transform: translateY(-10px);
+}
+
+.img02 {
+    position: relative;
+    width: 340px;
+    translate: 50px;
+}
+
+.btnplay {
+    position: absolute;
+    transform: translateX(415px);
+    z-index: 3;
+    font-size: 9px;
+}
+
+.btnplay2 {
+    position: absolute;
+    z-index: 3;
+    font-size: 9px;
+    transform: translate(100 px, -20px) !important;
+}
+
+.features {
+    position: relative;
+    height: 350px;
+}
+
+.features3 {
+    position: relative;
+    height: 350px;
+}
+
+
+.awproject {
+    position: relative;
+    height: 50%;
+    width: 300px;
+    font-size: 12px;
+    translate: 120px;
+}
+
+
+.text2 {
+    height: 70%;
+    width: 280px;
+    font-size: 12px;
+    translate: 100px;
+}
+
+.text3 {
+    height: 70%;
+    width: 300px;
+    font-size: 12px;
+    translate: 150px;
+}
+
+.Bord1::after {
+    content: "";
+    position: absolute;
+    width: 100px; 
+    height: 2px; 
+    transform: translate(-110px, 25px);
+    background-color: orange;
+  }
+
+.Bord2::after {
+    content: "";
+    position: absolute;
+    width: 150px; 
+    height: 1px; 
+    transform: translate(-127px, 25px);
+    background-color: orange;
+  }
+
+.Bord3::after {
+    content: "";
+    position: absolute;
+    width: 200px; 
+    height: 2px; 
+    transform: translate(-137px, 25px);
+    background-color: orange;
+  }
+
+.check {
+    fill: #34E0C3 !important;
+}
+
+
+
+.card-text {
+    font-size: 14px;
+}
+
+.cimage {
+    translate: 150px;
+}
+
+
+/*footer*/
+
+.end {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.bi-file-earmark-text {
+    transform: translateX(-5px);
+    fill: #007bff !important;
+}
+
+
+.Odoo-footer {
+    transform: translateY(-20px);
+    font-size: 12px;
+}
+
+
+li {
+    font-size: 12px;
+}
+
+
+@media (max-width: 992px) { 
+    .section1 {
+        margin-top: 6rem !important;
+    }
+}
+

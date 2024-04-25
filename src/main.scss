@@ -1,0 +1,24 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: (
+  "darkblue": #161348,
+  "greenpastel": #34E0C3,
+);
+
+$sizes: (
+  "45": 45%,
+  "47": 47%,
+  "60": 60%,
+);
+
+$spacers: (
+  6: 4rem,
+  7: 8rem,
+  8: 10rem,
+
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
